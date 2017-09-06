@@ -1,0 +1,17 @@
+/*CATALOGO  - SECTION - ps3*/
+.categoria{
+	text-align: center;
+	margin: 2% 5%;
+}
+.categoriaimg{
+	margin: 2% 5%;
+	width: 80%;
+}
+.modalIMG{
+	width: 100%;
+	height: 360px;
+}
+.modalcont{
+	padding: 5%;
+	width: 100%;
+}
