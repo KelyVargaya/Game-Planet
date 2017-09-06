@@ -1,0 +1,67 @@
+.owl-nav div{
+    background: #fff none repeat scroll 0 0;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 40px;
+}
+
+.owl-nav div.owl-next{
+    left: auto; 
+    right: 20px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+  .masvendidos{
+      padding: 20px 10px;
+  }
+
+  #dota2{
+      width: 230px;
+      height: 240px;
+  }
+
+  #alegriaIMG{
+    width: 230px;
+    height: 240px;
+  }
