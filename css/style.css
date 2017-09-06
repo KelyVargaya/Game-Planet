@@ -1,31 +1,29 @@
-/*HEADER*/
 
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
 
-/*NAVBAR */
+/*NAVBAR */}
+.navbar{
+  margin-bottom: 0px !important ;
+ 
+}
 .navbar-wrapper {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
+  background-color:  #353535;
 }
 
 .navbar-inverse{
-	background-color: #39a39c;
+	background-color: #39a39c !important;
 	border:none;
 }
 
-.navbar-brand.logo{
-	font-size: 2.0vw;
-	color: white;
-	width: 280px;
-	font-family: 'Akronim', cursive;
-	
-}
+
 nav  li a{
 	color: white !important;
 	width: 155px; 
@@ -33,7 +31,31 @@ nav  li a{
 	font-family: 'Luckiest Guy', cursive;
 	text-align: center;
 }
+nav  li:hover{
+ background-color: #39a39c ;
+}
+nav li a:hover{
+ color: white !important;
+}
 
+
+
+  .navIcons {
+    color: #353535;
+    font-size: 26px;
+    padding: 10px;
+}
+
+  .navIcons:hover {
+    background-color: #39a39c;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.btnIcons{
+  background: transparent;
+}
 
 
 
@@ -50,11 +72,15 @@ nav  li a{
   width: auto;
 }
 
-/* Carousel  */
+  
 .carousel {
-  height: 500px;
- /* margin-bottom: 60px;*/
+  margin-top: 100px;
 }
+
+.navbar-wrapper {
+   margin-bottom: 0px; 
+  }
+/*
 .carousel-caption {
   z-index: 10;
 }
@@ -71,15 +97,23 @@ nav  li a{
   height: 500px;
 }
 
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  margin-top: 150px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+*/
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
+  
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -113,9 +147,7 @@ nav  li a{
 }
 
 
-
-/**/
-
+/*M*/
 .img-circle{
   border: 2px solid #39a39c;
   padding-top: 15px;
@@ -260,3 +292,41 @@ nav  li a{
     padding: 50px 20px;
     height: 500px;
 }
+/**/
+
+
+.pie-de-pagina li {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+.pie-de-pagina ul li a{
+  text-decoration: none;
+  color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+     border-radius: 50%
+}
+.fa-twitter{
+  background: #16A6E0;
+    color: white;
+     border-radius: 50%
+}
+.fa-linkedin{
+  background: #16A6E0;
+    color: white;
+     border-radius: 50%
+}
+.fa-youtube{
+  background: red;
+    color: white;
+     border-radius: 50%
+}
+footer{
+  background-color: #39a39c;
+  color: white;
+  padding: 30px 0px;
+}/*fin de section fotter*/
+
