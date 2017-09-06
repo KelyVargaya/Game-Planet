@@ -1,10 +1,13 @@
 /*CATALOGO  - SECTION - ps3*/
+#contenedorIMGGLOBAL{
+		background-color:  #353535;
+}
 .categoria{
 	text-align: center;
-	margin: 2% 5%;
+	padding: 2% 5%;
 }
 .categoriaimg{
-	margin: 2% 5%;
+	padding: 2% 5%;
 	width: 80%;
 }
 .modalIMG{
