@@ -3,23 +3,28 @@ body {
   color: #5a5a5a;
 }
 
-/*NAVBAR */
+/*NAVBAR */}
+.navbar{
+  margin-bottom: 0px !important ;
+ 
+}
 .navbar-wrapper {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
+  background-color:  #353535;
 }
 
 .navbar-inverse{
-	background-color: #353535;
+	background-color: #39a39c !important;
 	border:none;
 }
 
 
 nav  li a{
-	color: #39a39c !important;
+	color: white !important;
 	width: 155px; 
 	font-size: 15px;
 	font-family: 'Luckiest Guy', cursive;
@@ -33,13 +38,6 @@ nav li a:hover{
 }
 
 
-.header{
-    padding: 0px 0px 0px 40px;
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: inline;
-  }
 
   .navIcons {
     color: #353535;
@@ -73,11 +71,15 @@ nav li a:hover{
   width: auto;
 }
 
-/* Carousel  
+  
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  margin-top: 100px;
 }
+
+.navbar-wrapper {
+   margin-bottom: 0px; 
+  }
+/*
 .carousel-caption {
   z-index: 10;
 }
@@ -110,9 +112,7 @@ nav li a:hover{
 
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
+  
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -145,6 +145,155 @@ nav li a:hover{
   }
 }
 
+
+/*M*/
+.img-circle{
+  border: 2px solid #39a39c;
+  padding-top: 15px;
+}
+/*encontraras*/
+#encontraras{
+  background-color: #353535; 
+  padding: 15px 10px 45px 10px;
+  background-color: cover;
+}
+
+#encontraras h3{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.profile-header-img > img.img-circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #39a39c;
+     padding: 10px;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+/**
+ * Ranking component
+ */
+.rank-label-container {
+    margin-top: -19px;
+    /* z-index: 1000; */
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: #39a39c;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+#encontraras h3
+{
+   padding: 10px;
+  color: white;
+  
+}
+
+.owl-nav div{
+    background: #fff none repeat scroll 0 0;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 40px;
+}
+
+.owl-nav div.owl-next{
+    left: auto; 
+    right: 20px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: white; 
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: #353535;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: #39a39c;
+  }
+
+  #masVendidos{
+    background-color: #39a39c;
+      padding: 20px 10px;
+  }
+
+  #masVendidos h2{
+    padding: 20px ;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+   #masVendidos h4{
+    color: white;
+  }
+   #masVendidos h5{
+    color: white;
+  }
+
+  #dota2{
+      width: 230px;
+      height: 240px;
+  }
+
+  #alegriaIMG{
+    width: 230px;
+    height: 240px;
+  }
+
+  /*contact*/
+  #contact{
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    position: relative;
+    background-color: #333;
+    padding: 50px 20px;
+    height: 500px;
+}
+/**/
+
+
 .pie-de-pagina li {
   list-style: none;
   color: white;
@@ -175,7 +324,7 @@ nav li a:hover{
      border-radius: 50%
 }
 footer{
-  background-color: #353535;
+  background-color: #39a39c;
   color: white;
   padding: 30px 0px;
 }/*fin de section fotter*/
